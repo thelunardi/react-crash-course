@@ -8,7 +8,8 @@ const Tasks = ({tasks, onDelete, onToggle}) => {
                         onToggle={ onToggle }
                         onDelete={ onDelete }
                         task={ task }
-                        key={ task.id }/>
+                        key={ task.id }
+                    />
                 )
             ) }
         </div>
